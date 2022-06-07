@@ -5,14 +5,13 @@ main {
     height: 300px;
     justify-content: center;
     background-color: green;
-   
 
 }
 
 section {
     padding: 20px;
     min-height: 100px;
-    text-align: center;
+    text-align: left;
 }
 
 h1 {
@@ -25,7 +24,8 @@ h1 {
 h2 {
     font-weight: 700;
     font-size: 38px;
-    text-align: center;
+    text-align: left;
+
 
 }
 
@@ -34,7 +34,7 @@ h2 {
     height: auto;
 } */
 p {
-
+    text-align: left;
     font-size: 22px;
     font-weight: 700;
 
@@ -48,6 +48,9 @@ main {
 }
 .pic-one {
     grid-area: one;
+    width: 30%
+
+    
 }
 .Two {
     grid-area: two;
